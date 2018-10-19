@@ -1,6 +1,7 @@
 package com.apap.tugas1.model;
 
 import java.io.Serializable;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -97,4 +98,9 @@ public class JabatanModel implements Serializable, Comparable<JabatanModel> {
 
         return true;
     }
+
+	public List<JabatanModel> getPegawaiList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
